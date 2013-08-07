@@ -57,7 +57,7 @@ class RelevantDateFormatExtension extends \Twig_Extension
         // Number of minutes
         //
         if ($diffMins < 1) {
-            return 'less then a minute ago';
+            return 'less than a minute ago';
         }
         if ($diffMins < 59) {
             return $diffMins . ' minutes ago';
